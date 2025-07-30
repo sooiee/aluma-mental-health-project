@@ -82,6 +82,7 @@ Returning Visitors:
 
 ### WIREFRAMES
 Created using Figma for mobile, tablet and desktop to map out the responsivness for the website at different sizes and understand the general structure. 
+Find the Wireframe [Here](<assets/images/Screenshot 2025-07-30 at 12.47.02.png>)
 
 ### TYPOGRAPHY
 Tools used:
@@ -212,9 +213,6 @@ The site was deployed to Github Pages using the following method:
 
 
 ## CREDITS
-List of used resources for your website (text, images, snippets of code, projects....)
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-The Credits section is where you can credit all the people and sources you used throughout your project.
 ### CODE USED
 If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
 
