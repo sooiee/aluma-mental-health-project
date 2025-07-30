@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karma:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+/* ASTERISK WILDCARD SELECTOR to override default styles added by the browser */
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+body {
+   min-height: 100vh;
+   background-color: #efefef;
+   display: flex;
+   flex-direction: column;
+   color: #474747;
+   font-family: "Karma", serif;
+}
+
+h1,
+h2,
+h3 {
+   font-family: "Lora", serif;
+   font-weight: 200;
+   font-style: italic;
+   color: #262626;
+}
+
+/* HEADER STYLES */
+header {
+   background-color: #dedede;
+   padding: 0 1rem;
+   position: fixed;
+   z-index: 99;
+   width: 100%; /* fixed position means header only takes up the width of the content not entire width */
+   box-shadow: 0 2px 2px #262626; /* horizontal offset, vertical offset, blur, color */
+   display: flex; /* makes logo and checkbox show in a side by side as flex direction default is row */
+   justify-content: space-between; /* adds space between Aluma logo and checkbox */
+   align-items: baseline; /* to align vertically */
+}
+
+header a {
+   text-decoration: none; /*removes default styling for anchor (underline and blue color) */
+   color: inherit; /* inherits text color from body */
+}
+
+#nav-list {
+   font-size: 110%;
+   letter-spacing: 4px;
+   list-style-type: none; /* removes bulletpoints */
+}
+
+#nav-list > li {
+   margin-bottom: 1em;
+}
+
+.active {
+   border-bottom: 1px solid #3a3a3a;
+}
+/* NAV BAR STYLES WITH DROPDOWN TOGGLES */
+nav {
+   position: absolute;
+   background-color: #ffffff;
+   width: 100%;
+   left: 0;
+   padding: 0 1rem;
+   box-shadow: 0 2px 2px #3a3a3a;
+   display: none;
+   top: 100%; /* top of the nav element starts at bottom of its parent element (header) ~ both are flex so nav follows header */
+}
+
+/* NAV TOGGLE */
+#nav-toggle:checked ~ nav {
+   /* using a pseudo class to say when #nav-toggle is checked (its id for checkbox) target the adjoining nav element (tilde tells css to target the sibling element (nav in this case) */
+   display: block;
+}
+
+#nav-toggle {
+   display: none; /* checkbox no longer displays */
+}
+
+.nav-toggle-label {
+   font-size: 2rem;
+}
+
+/* MAIN CONTENT STYLES */
+main {
+   /* make main element take up any surplus space to push footer down */
+   flex: 1 0 auto;
+   margin-top: 48px; /* via dev tools saw that the header was 48px and was covering the main section, so margin top pushes the content down, starting main 47px from the top */
+   /* Enable flex properties for child elements */
+   display: flex;
+   flex-direction: column;
+}
+
+#hero {
+   background-image: #ebac86;
+   background-image: radial-gradient(
+      circle,
+      rgba(235, 172, 134, 1) 0%,
+      rgba(212, 200, 188, 1) 45%,
+      rgba(72, 131, 171, 1) 100%
+   );
+}
+
+#mental-health {
+   background-color: #dedede;
+}
+
+#resources #affirmations {
+   background-color: #dedede;
+}
+
+footer {
+   background-color: #dedede;
+}

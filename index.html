@@ -15,40 +15,65 @@
         <!-- TAB ICON -->
          <link rel="aluma-logo" sizes="160x160" href="assets/favicon/aluma-logo.png">
          <link rel="icon" sizes="32x32" href="assets/favicon/32icon.png">
+
+         <!-- CSS STYLESHEET-->
+          <link rel="stylesheet" href="./assets/css/styles.css">
     </head>
 
     <body>
+        <!-- HEADER -->
         <header>
-            <nav>
-                <link>
+            <a href="index.html"> <!-- LINKS BACK TO MAIN PAGE -->
+            <h1 id="aluma-logo">Aluma</h1>
+            </a>
 
-            </nav>
+         <input type="checkbox" id="nav-toggle" name="nav-toggle">
+         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" style="color: #262626;"></i></label>
+
+         <nav>
+            <ul id="nav-list">
+               <li><a href="./index.html" class="active">Home</a></li>
+               <li><a href="#mental-health">Information</a></li>
+               <li><a href="#resources">Resources</a></li>
+               <li><a href="#affirmations">Affirmations</a></li>
+            </ul>
+         </nav>
 
         </header>
 
+        <!-- MAIN CONTENT -->
         <main>
-            <section>
+            <!-- SECTION 1: HERO IMAGE -->
+            <section id="hero">
                 Hero
 
             </section>
 
-            <section>
+            <!-- SECTION 2: MENTAL HEALTH CARDS -->
+            <section id="mental-health">
                 Cards
             </section>
 
-            <section>
+            <!-- SECTION 3: RESOURCES -->
+            <section id="resources">
                 Resources
             </section>
 
-            <section>
+            <!-- SECTION 4: AFFIRMATIONS -->
+            <section id="affirmations">
                 Affirmations
             </section>
 
         </main>
 
-        <footer>
+        <!-- FOOTER -->
+        <footer >
 
         </footer>
+
+        <!-- FONT AWESOME KIT-->
+      <script src="https://kit.fontawesome.com/f082230656.js" crossorigin="anonymous"></script>
+      <!-- Placed at bottom to fasten loading time, website is loaded first before icons are integrated-->
     </body>
 
 </html>
