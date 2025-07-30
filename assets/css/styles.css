@@ -132,7 +132,7 @@ main {
 
 /* MENTAL HEALTH INFORMATION SECTION STYLES */
 #mental-health {
-   
+    
 }
 
 .card-container {
@@ -140,20 +140,24 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
+    
 }
 
 .card {
     width: 325px;
-    background-color: aqua;
+    background-color: #ffffff;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4x rgba(0, 0, 0, 0.2);
     margin: 20px;
+    border: 1px solid #474747 ;
 }
 
 .card img{
     width: 100%;
     height: auto;
+    border: 1px solid #474747 ;
+    
 }
 
 .card-content h3 {
@@ -170,17 +174,32 @@ main {
 .card-content .btn {
     display: inline-block;
     padding: 8px 16px;
-    background-color: orange;
+    background-color: rgba(72, 131, 171, 1);
     text-decoration: none;
     border-radius: 4px;
     margin-top: 16px;
-    color: inherit;
+    color: #ffffff;
+    
+    
 }
 
 /* RESOURCES SECTION STYLES */
 #resources {
-   background-color: #dedede;
+    position: relative;
+    width: 100%;
+    background-color: #dedede;
 }
+
+/*AFFIRMATIONS SECTION */
+#affirmations {
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+
 
 
 /* FOOTER */
