@@ -184,13 +184,17 @@ CSS
 
 ## TESTING
 ### Google's Lighthouse Performance
-Screenshots of certain pages and scores (mobile and desktop)
+Screenshots of scores [mobile](<assets/images/Screenshot 2025-07-31 at 11.30.43.png>) and [desktop](<assets/images/Screenshot 2025-07-31 at 11.30.59.png>)
+
 ### Browser Compatibility
 Check compatability with different browsers
+
 ### Responsiveness
 Screenshots of the responsivness, pick few devices (from 320px top 1200px)
+
 ### Code Validation
 Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
+
 ### Manual Testing user stories or/and features
 Test all your user stories, you an create table 
 User Story |  Test | Pass
