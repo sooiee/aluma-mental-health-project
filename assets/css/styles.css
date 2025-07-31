@@ -58,10 +58,11 @@ header a {
    text-decoration: none; /*removes default styling for anchor (underline and blue color) */
    color: inherit; /* inherits text color from body */
 }
-
-.active {
+ li a:active {
    border-bottom: 1px solid #3a3a3a;
 }
+
+
 /* NAV BAR STYLES WITH DROPDOWN TOGGLES */
 nav {
    position: absolute;

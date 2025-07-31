@@ -219,7 +219,8 @@ The site was deployed to Github Pages using the following method:
 If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
 
 * Thank you to Learn Web for the card container code. It was taken from [this video](https://www.youtube.com/watch?v=9FNNkzPBFcE) and customised.
-* Code for the Carousel was taken from bootstrap and customised with the help of copilot 
+* Code for the Carousel, modal and cards was taken from bootstrap and intergated and customised with the help of copilot.
+* Used code from a previous [love-running](https://github.com/sooiee/love-running) project to help with the nav, footer and resources section.
 
 ### CONTENT
 This is a list of the websites used for the content:
