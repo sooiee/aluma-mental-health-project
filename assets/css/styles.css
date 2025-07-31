@@ -157,6 +157,10 @@ main {
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
    border: 1px solid #474747;
    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+   display: flex; /* Use flexbox for card layout */
+   flex-direction: column; /* Stack image and content vertically */
+   height: auto; /* Allow cards to expand based on content */
+   min-height: 450px; /* Ensure minimum height for consistency */
 }
 
 .card:hover {
@@ -169,16 +173,22 @@ main {
    height: 200px; /* Fixed height for consistent card appearance */
    object-fit: cover; /* Ensures images fill space without distortion */
    border-bottom: 1px solid #474747;
+   flex-shrink: 0; /* Prevent image from shrinking */
 }
 
 .card-content {
    padding: 20px;
+   flex: 1; /* Allow content to grow and fill available space */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; /* Distribute content evenly */
 }
 
 .card-content h3 {
    font-size: 24px;
    margin-bottom: 12px;
    line-height: 1.2;
+   flex-shrink: 0; /* Prevent title from shrinking */
 }
 
 .card-content p {
@@ -186,6 +196,7 @@ main {
    font-size: 15px;
    line-height: 1.4;
    margin-bottom: 16px;
+   flex: 1; /* Allow paragraph to grow */
 }
 
 .card-content .btn {
@@ -196,6 +207,9 @@ main {
    border-radius: 4px;
    color: #ffffff;
    transition: background-color 0.3s ease;
+   margin-top: auto; /* Push button to bottom */
+   align-self: flex-start; /* Align button to left */
+   flex-shrink: 0; /* Prevent button from shrinking */
 }
 
 .card-content .btn:hover {
@@ -411,6 +425,37 @@ footer {
 
 /* MEDIA QUERIES */
 
+/* Extra small devices (up to 480px) */
+@media screen and (max-width: 480px) {
+   .card {
+      min-height: 350px; /* Smaller min-height for very small screens */
+      min-width: 200px;
+   }
+   
+   .card img {
+      height: 150px; /* Smaller image for extra small screens */
+   }
+   
+   .card-content {
+      padding: 12px; /* Minimal padding for small screens */
+   }
+   
+   .card-content h3 {
+      font-size: 18px; /* Smaller heading for extra small screens */
+      margin-bottom: 8px;
+   }
+   
+   .card-content p {
+      font-size: 13px; /* Smaller text for extra small screens */
+      margin-bottom: 12px;
+   }
+   
+   .card-content .btn {
+      padding: 6px 12px; /* Very compact button for small screens */
+      font-size: 13px;
+   }
+}
+
 /* Mobile devices (up to 768px) */
 @media screen and (max-width: 768px) {
    /* Header responsiveness */
@@ -458,14 +503,30 @@ footer {
       max-width: 100%; /* Cards take full width on mobile */
       min-width: 250px; /* Minimum width for readability */
       width: 100%; /* Full width within container */
+      min-height: 400px; /* Reduced min-height for mobile */
+   }
+   
+   .card img {
+      height: 180px; /* Slightly smaller image on mobile */
+   }
+   
+   .card-content {
+      padding: 15px; /* Reduced padding for mobile */
    }
    
    .card-content h3 {
       font-size: 20px; /* Smaller heading for mobile screens */
+      margin-bottom: 10px;
    }
    
    .card-content p {
       font-size: 14px; /* Smaller text for mobile readability */
+      margin-bottom: 15px;
+   }
+   
+   .card-content .btn {
+      padding: 8px 16px; /* Smaller button padding on mobile */
+      font-size: 14px; /* Smaller button text */
    }
    
    /* Resources section */
@@ -535,10 +596,27 @@ footer {
    .card {
       flex: 1 1 250px; /* Cards can shrink more on tablets */
       max-width: 300px; /* Smaller max width for better fit */
+      min-height: 420px; /* Adjusted min-height for tablets */
+   }
+   
+   .card img {
+      height: 180px; /* Slightly smaller image on tablets */
+   }
+   
+   .card-content {
+      padding: 18px; /* Medium padding for tablets */
    }
    
    .card-content h3 {
       font-size: 22px; /* Medium heading size for tablets */
+   }
+   
+   .card-content p {
+      font-size: 14px; /* Appropriate text size for tablets */
+   }
+   
+   .card-content .btn {
+      padding: 9px 18px; /* Medium button size for tablets */
    }
    
    #hero-text {
@@ -554,5 +632,29 @@ footer {
    
    .card {
       max-width: 380px; /* Larger cards on desktop for better content display */
+      min-height: 480px; /* Taller cards for desktop */
+   }
+   
+   .card img {
+      height: 220px; /* Larger image on desktop */
+   }
+   
+   .card-content {
+      padding: 25px; /* More generous padding on desktop */
+   }
+   
+   .card-content h3 {
+      font-size: 26px; /* Larger heading on desktop */
+      margin-bottom: 15px;
+   }
+   
+   .card-content p {
+      font-size: 16px; /* Larger text on desktop */
+      margin-bottom: 20px;
+   }
+   
+   .card-content .btn {
+      padding: 12px 24px; /* Larger button on desktop */
+      font-size: 16px;
    }
 }
