@@ -83,6 +83,7 @@ Returning Visitors:
 ### WIREFRAMES
 Created using Figma for mobile, tablet and desktop to map out the responsivness for the website at different sizes and understand the general structure. 
 Find the Wireframe [Here](<assets/images/Screenshot 2025-07-30 at 12.47.02.png>)
+ * Red block is placeholder for image and ended up changing the red accents to a more neutral colour scheme blue,beige and orange colour scheme
 
 ### TYPOGRAPHY
 Tools used:
@@ -103,9 +104,10 @@ Created using [fontjoy](https://fontjoy.com/)
 [Colour Palette ](<assets/images/Screenshot 2025-07-29 at 21.59.35.png>) created using [coolors](https://coolors.co/)
 This palette was chosen to provide a calm, cosy and enjoyable experience for users, especially when navigating through sensitive topics like mental health.
 ### IMAGERY
-Used a colour gradient image for the hero section which was created using [CSS Gradient](https://cssgradient.io/gradient-backgrounds/)
+* Used a colour gradient image for the hero section which was created using [CSS Gradient](https://cssgradient.io/gradient-backgrounds/)
+* Images for card generated using DALL.E 3
+* Used Linearity Curve to draw a [favicon](<assets/favicon/aluma-160.png>)
 
-Images for card generated using DALL.E 3
 
 
 ## FEATURES:
@@ -175,11 +177,12 @@ CSS
 * Chat GPT
 * Canva 
 * Notion
+* DALL.E 3
+* Linearity Curve 
 
 
 
 ## TESTING
-Important part of your README!!!
 ### Google's Lighthouse Performance
 Screenshots of certain pages and scores (mobile and desktop)
 ### Browser Compatibility
@@ -197,7 +200,70 @@ paste here you user story | what is visible to the user and what action they sho
 
 
 ## BUGS
-List of bugs and how did you fix them
+Bugs fixed using copilot:
+### 1. Resources Section Styling Not Appearing on Deployed Page
+Issue: Custom CSS styles for the resources section weren't displaying on the live site
+
+
+Root Causes:
+Duplicate closing </section> tag breaking HTML structure
+CSS conflicts between old flexbox mobile styles and new grid layout
+CSS specificity issues with Bootstrap overriding custom styles
+
+
+Solution:
+Removed duplicate HTML tag
+Updated mobile media queries to use grid-template-columns: 1fr instead of flex-direction: column
+Added !important declarations for critical grid layout properties
+
+### 2. Responsive Navigation Menu Issues
+Issue: Mobile hamburger menu not functioning properly across all devices
+
+
+Solution: Implemented CSS-only toggle system using hidden checkbox and label approach with proper media queries for different screen sizes
+
+### 3. Card Layout Breaking on Small Screens
+Issue: Cards overlapping or becoming unreadable on mobile devices
+
+
+Solution:
+Implemented responsive flexbox with flex: 1 1 300px for adaptive sizing
+Added multiple media query breakpoints (480px, 768px, 1024px, 1200px)
+Used clamp() functions for responsive typography
+
+### 4. Modal Accessibility and Mobile Experience
+Issue: Modals not properly displaying full-screen on mobile devices
+
+
+Solution:
+Added modal-fullscreen class with proper viewport sizing
+Implemented tabindex="-1" to remove modals from tab order
+Added proper ARIA labels for screen readers
+
+
+### 5. Cross-browser Font Loading Issues
+Issue: Fonts not loading consistently across different browsers
+
+
+Solution:
+Proper Google Fonts import with fallback fonts
+Used font-display: swap parameter for better performance
+
+### 6. Content Overflow and Inconsistent Heights
+Issue: Cards with varying content lengths causing layout issues
+
+
+Solution:
+Implemented flexbox with justify-content: space-between in card content
+Used flex: 1 for expanding content areas
+Set consistent min-height values for visual uniformity
+
+### 7. UK English Spelling Inconsistencies
+Issue: Mixed American/British English spelling throughout content
+
+
+Solution: Systematic replacement of all visible text to use UK English spelling (e.g., "recognise" instead of "recognize", "colour" instead of "color")
+
 
 
 ## DEPLOYMENT
@@ -216,8 +282,6 @@ The site was deployed to Github Pages using the following method:
 
 ## CREDITS
 ### CODE USED
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
-
 * Thank you to Learn Web for the card container code. It was taken from [this video](https://www.youtube.com/watch?v=9FNNkzPBFcE) and customised.
 * Code for the Carousel, modal and cards was taken from bootstrap and intergated and customised with the help of copilot.
 * Used code from a previous [love-running](https://github.com/sooiee/love-running) project to help with the nav, footer and resources section.
@@ -226,27 +290,16 @@ If you have used some code in your project that you didn't write, this is the pl
 This is a list of the websites used for the content:
 
 **1. MentalHealth.com**
-
 **2. Crisis Text Line**
-
 **3. Priory**
-
 **4. health-in-mind.org**
-
 **5. The Good Body**
-
 **6. The Healthy**
-
 **7. Gratitude - The Life Blog**
-
 **8. Happier Human**
-
 **9. verywellmind**
-
 **10. Wondermind**
-
 **11. NHS**
-
 **12. Samaritans**
 
 ### MEDIA

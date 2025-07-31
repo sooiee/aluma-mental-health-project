@@ -67,6 +67,7 @@ header {
    align-items: baseline; /* Vertical alignment of flex items */
 }
 
+
 /* LOGO LINK STYLING - Remove default anchor styles */
 header a {
    text-decoration: none; /* Remove underline from logo link */
