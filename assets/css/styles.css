@@ -20,7 +20,7 @@ body {
 h1 {
    font-family: "Fira Sans Extra Condensed", sans-serif;
    font-size: clamp(1.5rem, 5vw, 3rem); /* Responsive font size */
-   font-weight: 400 !important;
+   font-weight: 300 !important;
    font-style: italic;
    line-height: 1.2; /* More flexible line height */
 }
@@ -620,16 +620,15 @@ main {
    100% { transform: translateX(0%); }
 }
 
-/* Uncomment below to enable auto-play */
-/*
+
 .text-carousel:hover .carousel-slides {
    animation-play-state: paused;
 }
 
 .carousel-slides {
-   animation: autoSlide 24s infinite;
+   animation: autoSlide 30s infinite;
 }
-*/
+
 
 /* MODALS */
 /* Responsive modal fullscreen styles */
