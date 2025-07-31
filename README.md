@@ -178,8 +178,15 @@ There was a small arror in HTML line 19 where the rel attribute was "aluma-logo"
 Test all your user stories, you an create table 
 User Story |  Test | Pass
 --- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
-- and attach screenshot
+As a user, I want immediate visual/auditory feedback on interactions so I know my actions are recognized. | hover and click components to check for response | &check;
+
+User Story |  Test | Pass
+--- | --- | :---:
+As a user, I want a cohesive, accessible, and responsive website layout so that I can easily navigate and consume mental health information on any device. | Tested responsive on different scrren sizes using dev tools, amiresponsive and via the deployed site using desktop and mobile | &check;
+
+User Story |  Test | Pass
+--- | --- | :---:
+As a user, I want clear and organised mental health information so that I can easily find and understand helpful tips and resources. | Information orgnaised as bulletpoints into cards and open into modals for easy access | &check;
 ### Compliance with WCAG Standards for Accessibility 
 * Insufficient contrast flagged up as an issue so this is a area that needs work throughout the site.
 
