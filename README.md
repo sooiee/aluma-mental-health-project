@@ -75,7 +75,7 @@ Returning Visitors:
 * Need confidence that the site content is accurate, credible, and regularly maintained.
 ### WIREFRAMES
 Created using Figma for mobile, tablet and desktop to map out the responsivness for the website at different sizes and understand the general structure. 
-Find the Wireframe [Here](<assets/images/Screenshot 2025-07-30 at 12.47.02.png>)
+Find the Wireframe ![Here](<assets/images/Screenshot 2025-07-30 at 12.47.02.png>)
  * Red block is placeholder for image and ended up changing the red accents to a more neutral colour scheme blue,beige and orange colour scheme
 ### TYPOGRAPHY
 Tools used:
@@ -92,12 +92,12 @@ These fonts were chosen to exude a calm yet business like vibe to make the websi
 [Fonts chosen](<assets/images/Screenshot 2025-07-30 at 01.31.48.png>)
 Created using [fontjoy](https://fontjoy.com/)
 ### COLOUR SCHEME
-[Colour Palette ](<assets/images/Screenshot 2025-07-29 at 21.59.35.png>) created using [coolors](https://coolors.co/)
+![Colour Palette ](<assets/images/Screenshot 2025-07-29 at 21.59.35.png>) created using [coolors](https://coolors.co/)
 This palette was chosen to provide a calm, cosy and enjoyable experience for users, especially when navigating through sensitive topics like mental health.
 ### IMAGERY
 * Used a colour gradient image for the hero section which was created using [CSS Gradient](https://cssgradient.io/gradient-backgrounds/)
 * Images for card generated using DALL.E 3
-* Used Linearity Curve to draw a [favicon](<assets/favicon/aluma-160.png>)
+* Used Linearity Curve to draw a ![favicon](<assets/favicon/aluma-160.png>)
 
 
 
@@ -170,7 +170,7 @@ Screenshots of scores [mobile](<assets/images/Screenshot 2025-07-31 at 11.30.43.
 ### Browser Compatibility
 Compatability with different browsers analysed uing powermapper. [results here](<assets/images/Screenshot 2025-07-31 at 14.16.09.png>)  ~ No compatability issues found.
 ### Responsiveness
-Screenshots of the responsivness, pick few devices (from 320px top 1200px)
+![Large Mobile](</assets/images/Screenshot 2025-07-31 at 14.44.25.png>), ![laptop](<assets/images/Screenshot 2025-07-31 at 14.43.15.png>),![Desktop](</assets/images/Screenshot 2025-07-31 at 14.45.15.png>)
 ### Code Validation
 Used W3 Validators to validate [HTML](<assets/images/Screenshot 2025-07-31 at 12.47.39.png>) and [CSS](<assets/images/Screenshot 2025-07-31 at 12.49.30.png>)
 There was a small arror in HTML line 19 where the rel attribute was "aluma-logo" instead of "icon" which was changed.
