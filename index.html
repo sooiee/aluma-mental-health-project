@@ -68,7 +68,9 @@
                             <h3>Common Mental Health Issues</h3>
                             <p>Learn about the most common mental health conditions including anxiety, depression, and
                                 stress-related disorders.</p>
-                            <a href="#" class="btn">Read More </a>
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mentalHealthModal">
+                                Read More
+                            </button>
                         </div>
                     </div>
 
@@ -81,7 +83,9 @@
                             <h3>Recognizing the Signs</h3>
                             <p>Identify early warning signs and symptoms that may indicate mental health concerns in
                                 yourself or others.</p>
-                            <a href="#" class="btn">Read More </a>
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#signsModal">
+                                Read More
+                            </button>
                         </div>
                     </div>
 
@@ -94,7 +98,9 @@
                             <h3>Managing Your Mental Health</h3>
                             <p>Discover practical strategies and self-care techniques to support your mental wellbeing
                                 and recovery.</p>
-                            <a href="#" class="btn">Read More </a>
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#managementModal">
+                                Read More
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -204,6 +210,319 @@
             </section>
 
         </main>
+
+        <!-- MODALS -->
+        <!-- Modal 1: Mental Health Issues -->
+        <div class="modal fade" id="mentalHealthModal" tabindex="-1" aria-labelledby="mentalHealthModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="mentalHealthModalLabel">Common Mental Health Issues</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="modal-intro">
+                                <h2>Understanding Mental Health Conditions</h2>
+                                <p>Mental health conditions are more common than you might think. Here's what you need to know about the most prevalent conditions:</p>
+                            </div>
+                            
+                            <div class="modal-card-container">
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Anxiety Disorders</h3>
+                                        <p>Anxiety disorders are the most common mental health conditions, affecting millions of people worldwide. They include:</p>
+                                        <ul>
+                                            <li><strong>Generalized Anxiety Disorder (GAD):</strong> Persistent worry about everyday situations</li>
+                                            <li><strong>Panic Disorder:</strong> Sudden, intense episodes of fear accompanied by physical symptoms</li>
+                                            <li><strong>Social Anxiety:</strong> Fear of social situations and being judged by others</li>
+                                            <li><strong>Specific Phobias:</strong> Intense fear of specific objects or situations</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Depression</h3>
+                                        <p>Depression is more than just feeling sad. It's a serious mental health condition that affects how you feel, think, and handle daily activities. Types include:</p>
+                                        <ul>
+                                            <li><strong>Major Depressive Disorder:</strong> Persistent feelings of sadness and loss of interest</li>
+                                            <li><strong>Persistent Depressive Disorder:</strong> Long-term depression lasting two years or more</li>
+                                            <li><strong>Seasonal Affective Disorder:</strong> Depression related to changes in seasons</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Stress-Related Disorders</h3>
+                                        <p>Chronic stress can lead to various mental and physical health problems:</p>
+                                        <ul>
+                                            <li><strong>Post-Traumatic Stress Disorder (PTSD):</strong> Develops after experiencing or witnessing trauma</li>
+                                            <li><strong>Acute Stress Disorder:</strong> Short-term stress response to traumatic events</li>
+                                            <li><strong>Adjustment Disorders:</strong> Difficulty coping with life changes or stressful events</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Bipolar Disorder</h3>
+                                        <p>A mental health condition characterized by extreme mood swings between emotional highs and lows:</p>
+                                        <ul>
+                                            <li><strong>Manic Episodes:</strong> Periods of unusually elevated, expansive, or irritable mood</li>
+                                            <li><strong>Depressive Episodes:</strong> Periods of deep sadness, hopelessness, and loss of energy</li>
+                                            <li><strong>Hypomania:</strong> Less severe manic symptoms that don't require hospitalization</li>
+                                            <li><strong>Mixed Episodes:</strong> Simultaneous symptoms of mania and depression</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Obsessive-Compulsive Disorder (OCD)</h3>
+                                        <p>A condition featuring unwanted, recurring thoughts and repetitive behaviors:</p>
+                                        <ul>
+                                            <li><strong>Obsessions:</strong> Intrusive, unwanted thoughts, images, or urges</li>
+                                            <li><strong>Compulsions:</strong> Repetitive behaviors or mental acts performed to reduce anxiety</li>
+                                            <li><strong>Common Themes:</strong> Contamination fears, symmetry, forbidden thoughts, or harm</li>
+                                            <li><strong>Impact:</strong> Significantly interferes with daily activities and relationships</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card reminder-card">
+                                    <div class="modal-card-content">
+                                        <h3>Remember</h3>
+                                        <p>Mental health conditions are treatable. If you're experiencing symptoms, reach out to a mental health professional. Early intervention can make a significant difference in recovery and overall wellbeing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 2: Recognizing Signs -->
+        <div class="modal fade" id="signsModal" tabindex="-1" aria-labelledby="signsModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="signsModalLabel">Recognizing the Signs</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="modal-intro">
+                                <h2>Early Warning Signs of Mental Health Concerns</h2>
+                                <p>Recognizing early warning signs can help you or someone you care about get help sooner. Here are key indicators to watch for:</p>
+                            </div>
+                            
+                            <div class="modal-card-container">
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Emotional Signs</h3>
+                                        <ul>
+                                            <li>Persistent sadness or mood swings</li>
+                                            <li>Increased irritability or anger</li>
+                                            <li>Feelings of hopelessness or worthlessness</li>
+                                            <li>Loss of interest in activities once enjoyed</li>
+                                            <li>Overwhelming fear, worry, or anxiety</li>
+                                            <li>Emotional numbness or inability to feel</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Physical Signs</h3>
+                                        <ul>
+                                            <li>Changes in sleep patterns (insomnia or oversleeping)</li>
+                                            <li>Significant weight loss or gain</li>
+                                            <li>Fatigue or loss of energy</li>
+                                            <li>Unexplained aches and pains</li>
+                                            <li>Changes in appetite</li>
+                                            <li>Frequent headaches or stomach problems</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Behavioral Signs</h3>
+                                        <ul>
+                                            <li>Withdrawal from friends, family, and social activities</li>
+                                            <li>Decline in work or academic performance</li>
+                                            <li>Increased use of alcohol or drugs</li>
+                                            <li>Reckless or dangerous behavior</li>
+                                            <li>Difficulty concentrating or making decisions</li>
+                                            <li>Neglecting personal hygiene or responsibilities</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Signs of Bipolar Disorder</h3>
+                                        <ul>
+                                            <li>Extreme mood swings from very high to very low</li>
+                                            <li>Periods of unusually high energy, activity, or restlessness</li>
+                                            <li>Decreased need for sleep during manic episodes</li>
+                                            <li>Racing thoughts and rapid speech</li>
+                                            <li>Poor judgment and impulsive decision-making</li>
+                                            <li>Grandiose beliefs about abilities or importance</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Signs of OCD</h3>
+                                        <ul>
+                                            <li>Repetitive behaviors like hand washing, checking, or counting</li>
+                                            <li>Persistent, unwanted thoughts or images</li>
+                                            <li>Extreme concern with cleanliness or order</li>
+                                            <li>Spending excessive time on routine activities</li>
+                                            <li>Avoiding situations that trigger obsessive thoughts</li>
+                                            <li>Seeking constant reassurance from others</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card highlight-card">
+                                    <div class="modal-card-content">
+                                        <h3>When to Seek Help</h3>
+                                        <p>If you notice several of these signs persisting for more than two weeks, or if they're interfering with daily life, it's important to reach out for help. Remember, seeking help is a sign of strength, not weakness.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card support-card">
+                                    <div class="modal-card-content">
+                                        <h3>Supporting Others</h3>
+                                        <p>If you notice these signs in someone else, approach them with compassion and without judgment. Listen actively, offer support, and encourage them to seek professional help if needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3: Managing Mental Health -->
+        <div class="modal fade" id="managementModal" tabindex="-1" aria-labelledby="managementModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="managementModalLabel">Managing Your Mental Health</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="modal-intro">
+                                <h2>Practical Strategies for Mental Wellbeing</h2>
+                                <p>Taking care of your mental health is just as important as taking care of your physical health. Here are evidence-based strategies to support your wellbeing:</p>
+                            </div>
+                            
+                            <div class="modal-card-container">
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Daily Self-Care Practices</h3>
+                                        <ul>
+                                            <li><strong>Mindfulness and Meditation:</strong> Practice being present in the moment</li>
+                                            <li><strong>Regular Exercise:</strong> Physical activity releases mood-boosting endorphins</li>
+                                            <li><strong>Adequate Sleep:</strong> Aim for 7-9 hours of quality sleep each night</li>
+                                            <li><strong>Healthy Nutrition:</strong> Eat a balanced diet to support brain health</li>
+                                            <li><strong>Limit Alcohol and Avoid Drugs:</strong> These can worsen mental health symptoms</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Building Support Systems</h3>
+                                        <ul>
+                                            <li><strong>Connect with Others:</strong> Maintain relationships with family and friends</li>
+                                            <li><strong>Join Support Groups:</strong> Connect with others who share similar experiences</li>
+                                            <li><strong>Volunteer:</strong> Helping others can boost your own mood and self-worth</li>
+                                            <li><strong>Professional Support:</strong> Don't hesitate to seek therapy or counseling</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Stress Management Techniques</h3>
+                                        <ul>
+                                            <li><strong>Deep Breathing Exercises:</strong> Practice slow, controlled breathing</li>
+                                            <li><strong>Progressive Muscle Relaxation:</strong> Tense and release muscle groups</li>
+                                            <li><strong>Journaling:</strong> Write down your thoughts and feelings</li>
+                                            <li><strong>Time Management:</strong> Organize tasks and set realistic goals</li>
+                                            <li><strong>Creative Activities:</strong> Engage in art, music, or other creative outlets</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Professional Treatment Options</h3>
+                                        <ul>
+                                            <li><strong>Therapy:</strong> Cognitive Behavioral Therapy (CBT), counseling, or other therapeutic approaches</li>
+                                            <li><strong>Medication:</strong> When prescribed by a healthcare professional</li>
+                                            <li><strong>Support Groups:</strong> Peer support and shared experiences</li>
+                                            <li><strong>Crisis Intervention:</strong> For immediate help during mental health emergencies</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Managing Bipolar Disorder</h3>
+                                        <ul>
+                                            <li><strong>Medication Compliance:</strong> Take prescribed mood stabilizers as directed</li>
+                                            <li><strong>Regular Sleep Schedule:</strong> Maintain consistent sleep patterns to prevent episodes</li>
+                                            <li><strong>Mood Tracking:</strong> Keep a daily mood journal to identify triggers</li>
+                                            <li><strong>Therapy:</strong> Psychoeducation and cognitive behavioral therapy</li>
+                                            <li><strong>Avoid Triggers:</strong> Limit alcohol, drugs, and high-stress situations</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card">
+                                    <div class="modal-card-content">
+                                        <h3>Managing OCD</h3>
+                                        <ul>
+                                            <li><strong>Exposure and Response Prevention (ERP):</strong> Gradual exposure to fears without compulsions</li>
+                                            <li><strong>Mindfulness Practices:</strong> Learn to observe thoughts without acting on them</li>
+                                            <li><strong>Medication:</strong> SSRIs can help reduce obsessive thoughts</li>
+                                            <li><strong>Limit Reassurance Seeking:</strong> Reduce asking others for confirmation</li>
+                                            <li><strong>Structured Daily Routine:</strong> Balance between structure and flexibility</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-card action-card">
+                                    <div class="modal-card-content">
+                                        <h3>Creating a Mental Health Action Plan</h3>
+                                        <p>Develop a personalized plan that includes your warning signs, coping strategies, support contacts, and professional resources. Share this plan with trusted friends or family members.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- FOOTER -->
         <footer>
