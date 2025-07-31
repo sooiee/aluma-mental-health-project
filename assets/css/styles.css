@@ -17,6 +17,10 @@ body {
    font-family: "Karma", serif;
 }
 
+p {
+    font-family: "karma", serif;
+}
+
 h1 {
    font-family: "Fira Sans Extra Condensed", sans-serif;
    font-size: clamp(1.5rem, 5vw, 3rem); /* Responsive font size */
