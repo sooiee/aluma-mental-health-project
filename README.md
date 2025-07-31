@@ -45,7 +45,7 @@ Here is a link to the live site [here](https://sooiee.github.io/aluma-mental-hea
 
 ## DESIGN & PLANNING:
 ### USER EXPERIENCE (UX)
-Designing a website focused on mental health requires special attention to creating a supportive, calming, and accessible user experience that meets the unique emotional and cognitive needs of users. Our UX design approach emphasises:
+Designing a website focused on mental health requires special attention to creating a supportive, calming, and accessible user experience that meets the unique emotional and cognitive needs of users. The UX design approach emphasises:
 
 * User-Centered Design ensuring all content and interactions feel intuitive, compassionate, and non-overwhelming.
 * The interface avoids clutter and confusing navigation. Content is presented in clear, digestible sections with straightforward language to reduce cognitive overload and anxiety.
@@ -114,19 +114,19 @@ This palette was chosen to provide a calm, cosy and enjoyable experience for use
 ### FEATURES ON ALL THE PAGES
 * Semantic, Accessible HTML Structure and appropriate headings for logical, screen-reader friendly content flow.
 * Soothing color palette and background imagery with descriptive alt text.
-* Separate pages dedicated to mental health issues, how to recognize them, and how to manage them.
+* Separate pages dedicated to mental health issues, how to recognise them, and how to manage them.
 * Visually distinct and consistent styling for mobile and desktop.
 * Immediate visual feedback on button hover, focus, and click states.
-* Proper color contrast.
+* Proper colour contrast.
 
 ### NAVIGATION
-*Responsive Navigation Bar
-Bootstrap navbar with clear anchor links to all main sections.
-Collapses into hamburger menu on smaller screens for mobile usability.
+* Responsive Navigation Bar
+* Bootstrap navbar with clear anchor links to all main sections.
+* Collapses into hamburger menu on smaller screens for mobile usability.
 ### FOOTER
 * Providing information for screen readers where there are icons used and no text.
 ### OTHER FEATURES
-* Include trusted sources such as mental health organizations and professional services.
+* Include trusted sources such as mental health organisations and professional services.
 * Bootstrap Jumbotron with positive mental health message.
 * Bootstrap cards showcasing concise, actionable mental health and stress management tips.
 * External links grouped in a dedicated section with styled buttons that open in new tabs.
@@ -136,11 +136,11 @@ Collapses into hamburger menu on smaller screens for mobile usability.
 
 
 ### FUTURE IMPLEMENTATIONS
-* User Accounts and Personalization
+* User Accounts and Personalisation
 * Enable users to save favorite tips or resources.
 * Personalise affirmation messages based on user preferences.
 * Interactive Quizzes or Self-Assessments
-* Simple quizzes to help users recognize their mental health status and get guidance.
+* Simple quizzes to help users recognise their mental health status and get guidance.
 * Embed video/audio resources with accessible controls and captions.
 * Live Chat or Support Contact
 * Provide a chat feature or direct contact options for immediate help.
@@ -179,6 +179,7 @@ CSS
 * Notion
 * DALL.E 3
 * Linearity Curve 
+* Font Awesome
 
 
 
@@ -187,14 +188,14 @@ CSS
 Screenshots of scores [mobile](<assets/images/Screenshot 2025-07-31 at 11.30.43.png>) and [desktop](<assets/images/Screenshot 2025-07-31 at 11.30.59.png>)
 
 ### Browser Compatibility
-Check compatability with different browsers
+Compatability with different browsers analysed uing powermapper []
 
 ### Responsiveness
 Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 ### Code Validation
-Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
-
+Used W3 Validators to validate [HTML](<assets/images/Screenshot 2025-07-31 at 12.47.39.png>) and [CSS](<assets/images/Screenshot 2025-07-31 at 12.49.30.png>)
+There was a small arror in HTML line 19 where the rel attribute was "aluma-logo" instead of "icon" which was changed.
 ### Manual Testing user stories or/and features
 Test all your user stories, you an create table 
 User Story |  Test | Pass
@@ -289,6 +290,7 @@ The site was deployed to Github Pages using the following method:
 * Thank you to Learn Web for the card container code. It was taken from [this video](https://www.youtube.com/watch?v=9FNNkzPBFcE) and customised.
 * Code for the Carousel, modal and cards was taken from bootstrap and intergated and customised with the help of copilot.
 * Used code from a previous [love-running](https://github.com/sooiee/love-running) project to help with the nav, footer and resources section.
+* Copilot AI tool also used in code generation, debugging, and optimisation.
 
 ### CONTENT
 This is a list of the websites used for the content:
@@ -315,4 +317,5 @@ This is a list of the websites used for the content:
 [CIMarko GitHub](https://github.com/CIMarko/BC_project_1)
 * Kera-cudmore whose repository I used to help me with creating this readme.
 [kera-cudmore GitHub](https://github.com/kera-cudmore)
+* AI helped massively with creating my first website and helped me understand and reflect on the intricacies of creating a website.
 
