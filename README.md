@@ -105,6 +105,8 @@ This palette was chosen to provide a calm, cosy and enjoyable experience for use
 ### IMAGERY
 Used a colour gradient image for the hero section which was created using [CSS Gradient](https://cssgradient.io/gradient-backgrounds/)
 
+Images for card generated using DALL.E 3
+
 
 ## FEATURES:
 ### FEATURES ON ALL THE PAGES
@@ -215,12 +217,40 @@ The site was deployed to Github Pages using the following method:
 ## CREDITS
 ### CODE USED
 If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
-Thank you to Learn Web for the card container code. It was taken from [this video](https://www.youtube.com/watch?v=9FNNkzPBFcE) and customised.
+
+* Thank you to Learn Web for the card container code. It was taken from [this video](https://www.youtube.com/watch?v=9FNNkzPBFcE) and customised.
+* Code for the Carousel was taken from bootstrap and customised with the help of copilot 
 
 ### CONTENT
-Add mental health websites here
+This is a list of the websites used for the content:
+
+**1. MentalHealth.com**
+
+**2. Crisis Text Line**
+
+**3. Priory**
+
+**4. health-in-mind.org**
+
+**5. The Good Body**
+
+**6. The Healthy**
+
+**7. Gratitude - The Life Blog**
+
+**8. Happier Human**
+
+**9. verywellmind**
+
+**10. Wondermind**
+
+**11. NHS**
+
+**12. Samaritans**
+
 ### MEDIA
-Gradient Background made with [CSS Gradient](https://cssgradient.io/gradient-backgrounds/)
+* Gradient Background made with [CSS Gradient](https://cssgradient.io/gradient-backgrounds/)
+* DALL.E 3 for generating images
 ### ACKNOWLEDGMENTS  
 * Code Insititute for the resources provided to aid with creating this project
 * Marko who helped me throughout the project by providing resources such as readme templates and tools as well as guidance.
