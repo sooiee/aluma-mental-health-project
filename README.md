@@ -1,7 +1,7 @@
 # aluma-mental-health-project
 The Aluma mental health awareness website is a website that provides information on the most common mental health issues, how to recognise the signs and ways to manage the symptoms. Further advice on how to recognise the signs on others and how to help them is also provided. This website was built as a project as part of my course.
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an [image](<Screenshot 2025-07-31 at 12.24.23.png>) of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
+Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an [image](<assets/images/Screenshot 2025-07-31 at 12.24.23.png>) of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
 
 Here is a link to the live site [here](https://sooiee.github.io/aluma-mental-health-project/) 
 ---
